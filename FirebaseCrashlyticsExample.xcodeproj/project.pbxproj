@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		7478B4E124B6B7D600283176 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7478B4DF24B6B7D600283176 /* Main.storyboard */; };
 		7478B4E324B6B7D900283176 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7478B4E224B6B7D900283176 /* Assets.xcassets */; };
 		7478B4E624B6B7D900283176 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7478B4E424B6B7D900283176 /* LaunchScreen.storyboard */; };
+		7478B4EE24B6C1CE00283176 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7478B4ED24B6C1CE00283176 /* GoogleService-Info.plist */; };
 		CC583596076B89F5A0081787 /* Pods_FirebaseCrashlyticsExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B24C0B4825E0D531F797B73 /* Pods_FirebaseCrashlyticsExample.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		7478B4E224B6B7D900283176 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7478B4E524B6B7D900283176 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7478B4E724B6B7D900283176 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7478B4ED24B6C1CE00283176 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DA033A0A256FF49B80196DE3 /* Pods-FirebaseCrashlyticsExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseCrashlyticsExample.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseCrashlyticsExample/Pods-FirebaseCrashlyticsExample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,6 +80,7 @@
 				7478B4E224B6B7D900283176 /* Assets.xcassets */,
 				7478B4E424B6B7D900283176 /* LaunchScreen.storyboard */,
 				7478B4E724B6B7D900283176 /* Info.plist */,
+				7478B4ED24B6C1CE00283176 /* GoogleService-Info.plist */,
 			);
 			path = FirebaseCrashlyticsExample;
 			sourceTree = "<group>";
@@ -88,7 +91,6 @@
 				DA033A0A256FF49B80196DE3 /* Pods-FirebaseCrashlyticsExample.debug.xcconfig */,
 				5223ECF856BDEB70A341E442 /* Pods-FirebaseCrashlyticsExample.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -155,6 +157,7 @@
 				7478B4E624B6B7D900283176 /* LaunchScreen.storyboard in Resources */,
 				7478B4E324B6B7D900283176 /* Assets.xcassets in Resources */,
 				7478B4E124B6B7D600283176 /* Main.storyboard in Resources */,
+				7478B4EE24B6C1CE00283176 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
