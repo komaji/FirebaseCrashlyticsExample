@@ -39,3 +39,5 @@ Carthage
 !/repos/.gitkeep
 
 !.gitattributes
+
+GoogleService-Info.plist
